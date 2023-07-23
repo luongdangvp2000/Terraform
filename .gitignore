@@ -1,0 +1,16 @@
+admin_test_accessKeys.csv
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# cause provider.tf have access key
+provider.tf
+
+**/test/EC2/demokey.pem
+**/test/EC2/terraform.tfvars
